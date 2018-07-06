@@ -1,6 +1,6 @@
 {
   "name": "f1r3starter/brackets",
-  "type": "composer-plugin",
+  "type": "library",
   "description": "Yet another composer package",
   "license": "proprietary",
   "authors": [
@@ -10,7 +10,6 @@
     }
   ],
   "require": {
-    "composer-plugin-api": "1.0.0",
     "php": ">=7.1.0"
   },
   "autoload": {
