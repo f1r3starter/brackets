@@ -1,5 +1,6 @@
 {
   "name": "f1r3starter/brackets",
+  "type": "composer-plugin",
   "description": "Yet another composer package",
   "license": "proprietary",
   "authors": [
@@ -8,7 +9,6 @@
       "email": "andrey.filenochko@gmail.com"
     }
   ],
-  "type": "composer-plugin",
   "require": {
     "php": ">=7.1.0"
   },
