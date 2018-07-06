@@ -1,0 +1,21 @@
+{
+  "name": "f1r3starter/brackets",
+  "description": "Yet another composer package",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andrii Filenko",
+      "email": "andrey.filenochko@gmail.com"
+    }
+  ],
+  "type": "composer-plugin",
+  "require": {
+    "composer-plugin-api": "1.0.0",
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "\\Brackets": "src"
+    }
+  } 
+}
